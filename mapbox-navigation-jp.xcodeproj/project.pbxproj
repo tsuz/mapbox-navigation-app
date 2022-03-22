@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5E9FCA727E9AC7000EAD125 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCA627E9AC7000EAD125 /* Tests_iOS.swift */; };
+		D5E9FCA927E9AC7000EAD125 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCA827E9AC7000EAD125 /* Tests_iOSLaunchTests.swift */; };
+		D5E9FCB327E9AC7000EAD125 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCB227E9AC7000EAD125 /* Tests_macOS.swift */; };
+		D5E9FCB527E9AC7000EAD125 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCB427E9AC7000EAD125 /* Tests_macOSLaunchTests.swift */; };
+		D5E9FCB627E9AC7000EAD125 /* mapbox_navigation_jpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_jpApp.swift */; };
+		D5E9FCB727E9AC7000EAD125 /* mapbox_navigation_jpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_jpApp.swift */; };
+		D5E9FCB827E9AC7000EAD125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */; };
+		D5E9FCB927E9AC7000EAD125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */; };
+		D5E9FCBA27E9AC7000EAD125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E9FC9027E9AC6F00EAD125 /* Assets.xcassets */; };
+		D5E9FCBB27E9AC7000EAD125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E9FC9027E9AC6F00EAD125 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E9FCA327E9AC7000EAD125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E9FC8927E9AC6E00EAD125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E9FC9427E9AC6F00EAD125;
+			remoteInfo = "mapbox-navigation-jp (iOS)";
+		};
+		D5E9FCAF27E9AC7000EAD125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E9FC8927E9AC6E00EAD125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E9FC9A27E9AC6F00EAD125;
+			remoteInfo = "mapbox-navigation-jp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_jpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapbox_navigation_jpApp.swift; sourceTree = "<group>"; };
+		D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5E9FC9027E9AC6F00EAD125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E9FC9527E9AC6F00EAD125 /* mapbox-navigation-jp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapbox-navigation-jp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E9FC9B27E9AC6F00EAD125 /* mapbox-navigation-jp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapbox-navigation-jp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E9FC9D27E9AC6F00EAD125 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D5E9FCA227E9AC7000EAD125 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E9FCA627E9AC7000EAD125 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D5E9FCA827E9AC7000EAD125 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		D5E9FCAE27E9AC7000EAD125 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E9FCB227E9AC7000EAD125 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D5E9FCB427E9AC7000EAD125 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E9FC9227E9AC6F00EAD125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FC9827E9AC6F00EAD125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FC9F27E9AC7000EAD125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FCAB27E9AC7000EAD125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E9FC8827E9AC6E00EAD125 = {
+			isa = PBXGroup;
+			children = (
+				D5E9FC8D27E9AC6E00EAD125 /* Shared */,
+				D5E9FC9C27E9AC6F00EAD125 /* macOS */,
+				D5E9FCA527E9AC7000EAD125 /* Tests iOS */,
+				D5E9FCB127E9AC7000EAD125 /* Tests macOS */,
+				D5E9FC9627E9AC6F00EAD125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E9FC8D27E9AC6E00EAD125 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_jpApp.swift */,
+				D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */,
+				D5E9FC9027E9AC6F00EAD125 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D5E9FC9627E9AC6F00EAD125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9FC9527E9AC6F00EAD125 /* mapbox-navigation-jp.app */,
+				D5E9FC9B27E9AC6F00EAD125 /* mapbox-navigation-jp.app */,
+				D5E9FCA227E9AC7000EAD125 /* Tests iOS.xctest */,
+				D5E9FCAE27E9AC7000EAD125 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E9FC9C27E9AC6F00EAD125 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9FC9D27E9AC6F00EAD125 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		D5E9FCA527E9AC7000EAD125 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9FCA627E9AC7000EAD125 /* Tests_iOS.swift */,
+				D5E9FCA827E9AC7000EAD125 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		D5E9FCB127E9AC7000EAD125 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9FCB227E9AC7000EAD125 /* Tests_macOS.swift */,
+				D5E9FCB427E9AC7000EAD125 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E9FC9427E9AC6F00EAD125 /* mapbox-navigation-jp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E9FCBE27E9AC7000EAD125 /* Build configuration list for PBXNativeTarget "mapbox-navigation-jp (iOS)" */;
+			buildPhases = (
+				D5E9FC9127E9AC6F00EAD125 /* Sources */,
+				D5E9FC9227E9AC6F00EAD125 /* Frameworks */,
+				D5E9FC9327E9AC6F00EAD125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mapbox-navigation-jp (iOS)";
+			productName = "mapbox-navigation-jp (iOS)";
+			productReference = D5E9FC9527E9AC6F00EAD125 /* mapbox-navigation-jp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E9FC9A27E9AC6F00EAD125 /* mapbox-navigation-jp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E9FCC127E9AC7000EAD125 /* Build configuration list for PBXNativeTarget "mapbox-navigation-jp (macOS)" */;
+			buildPhases = (
+				D5E9FC9727E9AC6F00EAD125 /* Sources */,
+				D5E9FC9827E9AC6F00EAD125 /* Frameworks */,
+				D5E9FC9927E9AC6F00EAD125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mapbox-navigation-jp (macOS)";
+			productName = "mapbox-navigation-jp (macOS)";
+			productReference = D5E9FC9B27E9AC6F00EAD125 /* mapbox-navigation-jp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E9FCA127E9AC7000EAD125 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E9FCC427E9AC7000EAD125 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				D5E9FC9E27E9AC7000EAD125 /* Sources */,
+				D5E9FC9F27E9AC7000EAD125 /* Frameworks */,
+				D5E9FCA027E9AC7000EAD125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E9FCA427E9AC7000EAD125 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = D5E9FCA227E9AC7000EAD125 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D5E9FCAD27E9AC7000EAD125 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E9FCC727E9AC7000EAD125 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				D5E9FCAA27E9AC7000EAD125 /* Sources */,
+				D5E9FCAB27E9AC7000EAD125 /* Frameworks */,
+				D5E9FCAC27E9AC7000EAD125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E9FCB027E9AC7000EAD125 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = D5E9FCAE27E9AC7000EAD125 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E9FC8927E9AC6E00EAD125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D5E9FC9427E9AC6F00EAD125 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D5E9FC9A27E9AC6F00EAD125 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D5E9FCA127E9AC7000EAD125 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D5E9FC9427E9AC6F00EAD125;
+					};
+					D5E9FCAD27E9AC7000EAD125 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D5E9FC9A27E9AC6F00EAD125;
+					};
+				};
+			};
+			buildConfigurationList = D5E9FC8C27E9AC6E00EAD125 /* Build configuration list for PBXProject "mapbox-navigation-jp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E9FC8827E9AC6E00EAD125;
+			productRefGroup = D5E9FC9627E9AC6F00EAD125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E9FC9427E9AC6F00EAD125 /* mapbox-navigation-jp (iOS) */,
+				D5E9FC9A27E9AC6F00EAD125 /* mapbox-navigation-jp (macOS) */,
+				D5E9FCA127E9AC7000EAD125 /* Tests iOS */,
+				D5E9FCAD27E9AC7000EAD125 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E9FC9327E9AC6F00EAD125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E9FCBA27E9AC7000EAD125 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FC9927E9AC6F00EAD125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E9FCBB27E9AC7000EAD125 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FCA027E9AC7000EAD125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FCAC27E9AC7000EAD125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E9FC9127E9AC6F00EAD125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E9FCB827E9AC7000EAD125 /* ContentView.swift in Sources */,
+				D5E9FCB627E9AC7000EAD125 /* mapbox_navigation_jpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FC9727E9AC6F00EAD125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E9FCB927E9AC7000EAD125 /* ContentView.swift in Sources */,
+				D5E9FCB727E9AC7000EAD125 /* mapbox_navigation_jpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FC9E27E9AC7000EAD125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E9FCA927E9AC7000EAD125 /* Tests_iOSLaunchTests.swift in Sources */,
+				D5E9FCA727E9AC7000EAD125 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E9FCAA27E9AC7000EAD125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E9FCB527E9AC7000EAD125 /* Tests_macOSLaunchTests.swift in Sources */,
+				D5E9FCB327E9AC7000EAD125 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E9FCA427E9AC7000EAD125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E9FC9427E9AC6F00EAD125 /* mapbox-navigation-jp (iOS) */;
+			targetProxy = D5E9FCA327E9AC7000EAD125 /* PBXContainerItemProxy */;
+		};
+		D5E9FCB027E9AC7000EAD125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E9FC9A27E9AC6F00EAD125 /* mapbox-navigation-jp (macOS) */;
+			targetProxy = D5E9FCAF27E9AC7000EAD125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5E9FCBC27E9AC7000EAD125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E9FCBD27E9AC7000EAD125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D5E9FCBF27E9AC7000EAD125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA87BU9G6A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takutosuzuki.mapbox-navigation-jp";
+				PRODUCT_NAME = "mapbox-navigation-jp";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E9FCC027E9AC7000EAD125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA87BU9G6A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takutosuzuki.mapbox-navigation-jp";
+				PRODUCT_NAME = "mapbox-navigation-jp";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E9FCC227E9AC7000EAD125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA87BU9G6A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takutosuzuki.mapbox-navigation-jp";
+				PRODUCT_NAME = "mapbox-navigation-jp";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5E9FCC327E9AC7000EAD125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA87BU9G6A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takutosuzuki.mapbox-navigation-jp";
+				PRODUCT_NAME = "mapbox-navigation-jp";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5E9FCC527E9AC7000EAD125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA87BU9G6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takutosuzuki.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mapbox-navigation-jp (iOS)";
+			};
+			name = Debug;
+		};
+		D5E9FCC627E9AC7000EAD125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA87BU9G6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takutosuzuki.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mapbox-navigation-jp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E9FCC827E9AC7000EAD125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA87BU9G6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takutosuzuki.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "mapbox-navigation-jp (macOS)";
+			};
+			name = Debug;
+		};
+		D5E9FCC927E9AC7000EAD125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA87BU9G6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takutosuzuki.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "mapbox-navigation-jp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E9FC8C27E9AC6E00EAD125 /* Build configuration list for PBXProject "mapbox-navigation-jp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E9FCBC27E9AC7000EAD125 /* Debug */,
+				D5E9FCBD27E9AC7000EAD125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E9FCBE27E9AC7000EAD125 /* Build configuration list for PBXNativeTarget "mapbox-navigation-jp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E9FCBF27E9AC7000EAD125 /* Debug */,
+				D5E9FCC027E9AC7000EAD125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E9FCC127E9AC7000EAD125 /* Build configuration list for PBXNativeTarget "mapbox-navigation-jp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E9FCC227E9AC7000EAD125 /* Debug */,
+				D5E9FCC327E9AC7000EAD125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E9FCC427E9AC7000EAD125 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E9FCC527E9AC7000EAD125 /* Debug */,
+				D5E9FCC627E9AC7000EAD125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E9FCC727E9AC7000EAD125 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E9FCC827E9AC7000EAD125 /* Debug */,
+				D5E9FCC927E9AC7000EAD125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E9FC8927E9AC6E00EAD125 /* Project object */;
+}
