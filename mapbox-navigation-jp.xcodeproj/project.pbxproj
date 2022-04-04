@@ -7,16 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D55A496C27F334F60023D1C0 /* AnimatableViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55A496B27F334F60023D1C0 /* AnimatableViewModifier.swift */; };
+		D55A496D27F334F60023D1C0 /* AnimatableViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55A496B27F334F60023D1C0 /* AnimatableViewModifier.swift */; };
+		D568EE7527EC723400706B87 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE7427EC723400706B87 /* SearchViewModel.swift */; };
+		D568EE7627EC723400706B87 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE7427EC723400706B87 /* SearchViewModel.swift */; };
+		D568EE7827EC743300706B87 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE7727EC743300706B87 /* Place.swift */; };
+		D568EE7927EC743300706B87 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE7727EC743300706B87 /* Place.swift */; };
+		D568EE7F27EC8F9600706B87 /* MyMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE7E27EC8F9600706B87 /* MyMapViewModel.swift */; };
+		D568EE8027EC8F9600706B87 /* MyMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE7E27EC8F9600706B87 /* MyMapViewModel.swift */; };
+		D568EE8527ECA5EA00706B87 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE8427ECA5EA00706B87 /* NavigationView.swift */; };
+		D568EE8627ECA5EA00706B87 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE8427ECA5EA00706B87 /* NavigationView.swift */; };
+		D568EE9627F2E03800706B87 /* SwipeableRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE9527F2E03800706B87 /* SwipeableRoutesView.swift */; };
+		D568EE9727F2E03800706B87 /* SwipeableRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D568EE9527F2E03800706B87 /* SwipeableRoutesView.swift */; };
+		D582086727F7F48D000A4A90 /* TimelineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D582086627F7F48D000A4A90 /* TimelineListView.swift */; };
+		D582086827F7F48D000A4A90 /* TimelineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D582086627F7F48D000A4A90 /* TimelineListView.swift */; };
 		D5E9FCA727E9AC7000EAD125 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCA627E9AC7000EAD125 /* Tests_iOS.swift */; };
 		D5E9FCA927E9AC7000EAD125 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCA827E9AC7000EAD125 /* Tests_iOSLaunchTests.swift */; };
 		D5E9FCB327E9AC7000EAD125 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCB227E9AC7000EAD125 /* Tests_macOS.swift */; };
 		D5E9FCB527E9AC7000EAD125 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCB427E9AC7000EAD125 /* Tests_macOSLaunchTests.swift */; };
-		D5E9FCB627E9AC7000EAD125 /* mapbox_navigation_jpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_jpApp.swift */; };
-		D5E9FCB727E9AC7000EAD125 /* mapbox_navigation_jpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_jpApp.swift */; };
+		D5E9FCB627E9AC7000EAD125 /* mapbox_navigation_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_App.swift */; };
+		D5E9FCB727E9AC7000EAD125 /* mapbox_navigation_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_App.swift */; };
 		D5E9FCB827E9AC7000EAD125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */; };
 		D5E9FCB927E9AC7000EAD125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */; };
 		D5E9FCBA27E9AC7000EAD125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E9FC9027E9AC6F00EAD125 /* Assets.xcassets */; };
 		D5E9FCBB27E9AC7000EAD125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E9FC9027E9AC6F00EAD125 /* Assets.xcassets */; };
+		D5E9FCCC27E9AE6700EAD125 /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = D5E9FCCB27E9AE6700EAD125 /* MapboxCoreNavigation */; };
+		D5E9FCCE27E9AE6700EAD125 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = D5E9FCCD27E9AE6700EAD125 /* MapboxNavigation */; };
+		D5E9FCD027E9AF2100EAD125 /* MyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCCF27E9AF2100EAD125 /* MyMapView.swift */; };
+		D5E9FCD127E9AF2100EAD125 /* MyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCCF27E9AF2100EAD125 /* MyMapView.swift */; };
+		D5E9FCD727E9CB3500EAD125 /* MyViewportDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCD627E9CB3500EAD125 /* MyViewportDataSource.swift */; };
+		D5E9FCD827E9CB3500EAD125 /* MyViewportDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCD627E9CB3500EAD125 /* MyViewportDataSource.swift */; };
+		D5E9FCDA27E9CBBF00EAD125 /* MyCustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCD927E9CBBF00EAD125 /* MyCustomTransition.swift */; };
+		D5E9FCDB27E9CBBF00EAD125 /* MyCustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9FCD927E9CBBF00EAD125 /* MyCustomTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +59,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_jpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapbox_navigation_jpApp.swift; sourceTree = "<group>"; };
+		D55A496B27F334F60023D1C0 /* AnimatableViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableViewModifier.swift; sourceTree = "<group>"; };
+		D568EE7427EC723400706B87 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		D568EE7727EC743300706B87 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		D568EE7E27EC8F9600706B87 /* MyMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapViewModel.swift; sourceTree = "<group>"; };
+		D568EE8427ECA5EA00706B87 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		D568EE9527F2E03800706B87 /* SwipeableRoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableRoutesView.swift; sourceTree = "<group>"; };
+		D582086627F7F48D000A4A90 /* TimelineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineListView.swift; sourceTree = "<group>"; };
+		D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapbox_navigation_App.swift; sourceTree = "<group>"; };
 		D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5E9FC9027E9AC6F00EAD125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5E9FC9527E9AC6F00EAD125 /* mapbox-navigation-jp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapbox-navigation-jp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +78,10 @@
 		D5E9FCAE27E9AC7000EAD125 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E9FCB227E9AC7000EAD125 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D5E9FCB427E9AC7000EAD125 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		D5E9FCCF27E9AF2100EAD125 /* MyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapView.swift; sourceTree = "<group>"; };
+		D5E9FCD227E9B05B00EAD125 /* mapbox-navigation-jp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "mapbox-navigation-jp--iOS--Info.plist"; sourceTree = "<group>"; };
+		D5E9FCD627E9CB3500EAD125 /* MyViewportDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewportDataSource.swift; sourceTree = "<group>"; };
+		D5E9FCD927E9CBBF00EAD125 /* MyCustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E9FCCC27E9AE6700EAD125 /* MapboxCoreNavigation in Frameworks */,
+				D5E9FCCE27E9AE6700EAD125 /* MapboxNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +118,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D568EE7027EC663000706B87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */,
+				D5E9FCCF27E9AF2100EAD125 /* MyMapView.swift */,
+				D568EE8427ECA5EA00706B87 /* NavigationView.swift */,
+				D568EE9527F2E03800706B87 /* SwipeableRoutesView.swift */,
+				D55A496B27F334F60023D1C0 /* AnimatableViewModifier.swift */,
+				D582086627F7F48D000A4A90 /* TimelineListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D568EE7A27EC743600706B87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D568EE7727EC743300706B87 /* Place.swift */,
+				D568EE7E27EC8F9600706B87 /* MyMapViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D568EE9327F1538700706B87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D568EE7427EC723400706B87 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D568EE9427F153BE00706B87 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9FCD927E9CBBF00EAD125 /* MyCustomTransition.swift */,
+				D5E9FCD627E9CB3500EAD125 /* MyViewportDataSource.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		D5E9FC8827E9AC6E00EAD125 = {
 			isa = PBXGroup;
 			children = (
+				D5E9FCD227E9B05B00EAD125 /* mapbox-navigation-jp--iOS--Info.plist */,
 				D5E9FC8D27E9AC6E00EAD125 /* Shared */,
 				D5E9FC9C27E9AC6F00EAD125 /* macOS */,
 				D5E9FCA527E9AC7000EAD125 /* Tests iOS */,
@@ -97,9 +172,12 @@
 		D5E9FC8D27E9AC6E00EAD125 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_jpApp.swift */,
-				D5E9FC8F27E9AC6E00EAD125 /* ContentView.swift */,
+				D5E9FC8E27E9AC6E00EAD125 /* mapbox_navigation_App.swift */,
 				D5E9FC9027E9AC6F00EAD125 /* Assets.xcassets */,
+				D568EE9327F1538700706B87 /* ViewModel */,
+				D568EE7A27EC743600706B87 /* Model */,
+				D568EE7027EC663000706B87 /* View */,
+				D568EE9427F153BE00706B87 /* Util */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -151,12 +229,17 @@
 				D5E9FC9127E9AC6F00EAD125 /* Sources */,
 				D5E9FC9227E9AC6F00EAD125 /* Frameworks */,
 				D5E9FC9327E9AC6F00EAD125 /* Resources */,
+				D582086927FA8381000A4A90 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "mapbox-navigation-jp (iOS)";
+			packageProductDependencies = (
+				D5E9FCCB27E9AE6700EAD125 /* MapboxCoreNavigation */,
+				D5E9FCCD27E9AE6700EAD125 /* MapboxNavigation */,
+			);
 			productName = "mapbox-navigation-jp (iOS)";
 			productReference = D5E9FC9527E9AC6F00EAD125 /* mapbox-navigation-jp.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +332,9 @@
 				Base,
 			);
 			mainGroup = D5E9FC8827E9AC6E00EAD125;
+			packageReferences = (
+				D5E9FCCA27E9AE6700EAD125 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+			);
 			productRefGroup = D5E9FC9627E9AC6F00EAD125 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -294,13 +380,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D582086927FA8381000A4A90 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Look for a global file named 'mapbox' or '.mapbox' within the home directory\ntoken_file=~/.mapbox\ntoken_file2=~/mapbox\ntoken=\"$(cat $token_file 2>/dev/null || cat $token_file2 2>/dev/null)\"\nif [ \"$token\" ]; then\n  plutil -replace MBXAccessToken -string $token \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\nelse\n  echo 'warning: Missing Mapbox access token'\n  open 'https://account.mapbox.com/access-tokens/'\n  echo \"warning: Get an access token from <https://account.mapbox.com/access-tokens/>, then create a new file at $token_file or $token_file2 that contains the access token.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D5E9FC9127E9AC6F00EAD125 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D5E9FCB827E9AC7000EAD125 /* ContentView.swift in Sources */,
-				D5E9FCB627E9AC7000EAD125 /* mapbox_navigation_jpApp.swift in Sources */,
+				D568EE8527ECA5EA00706B87 /* NavigationView.swift in Sources */,
+				D5E9FCD727E9CB3500EAD125 /* MyViewportDataSource.swift in Sources */,
+				D582086727F7F48D000A4A90 /* TimelineListView.swift in Sources */,
+				D568EE7827EC743300706B87 /* Place.swift in Sources */,
+				D568EE7527EC723400706B87 /* SearchViewModel.swift in Sources */,
+				D5E9FCDA27E9CBBF00EAD125 /* MyCustomTransition.swift in Sources */,
+				D5E9FCB627E9AC7000EAD125 /* mapbox_navigation_App.swift in Sources */,
+				D568EE7F27EC8F9600706B87 /* MyMapViewModel.swift in Sources */,
+				D568EE9627F2E03800706B87 /* SwipeableRoutesView.swift in Sources */,
+				D55A496C27F334F60023D1C0 /* AnimatableViewModifier.swift in Sources */,
+				D5E9FCD027E9AF2100EAD125 /* MyMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +426,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5E9FCB927E9AC7000EAD125 /* ContentView.swift in Sources */,
-				D5E9FCB727E9AC7000EAD125 /* mapbox_navigation_jpApp.swift in Sources */,
+				D568EE8627ECA5EA00706B87 /* NavigationView.swift in Sources */,
+				D5E9FCD827E9CB3500EAD125 /* MyViewportDataSource.swift in Sources */,
+				D582086827F7F48D000A4A90 /* TimelineListView.swift in Sources */,
+				D568EE7927EC743300706B87 /* Place.swift in Sources */,
+				D568EE7627EC723400706B87 /* SearchViewModel.swift in Sources */,
+				D5E9FCDB27E9CBBF00EAD125 /* MyCustomTransition.swift in Sources */,
+				D5E9FCB727E9AC7000EAD125 /* mapbox_navigation_App.swift in Sources */,
+				D568EE8027EC8F9600706B87 /* MyMapViewModel.swift in Sources */,
+				D568EE9727F2E03800706B87 /* SwipeableRoutesView.swift in Sources */,
+				D55A496D27F334F60023D1C0 /* AnimatableViewModifier.swift in Sources */,
+				D5E9FCD127E9AF2100EAD125 /* MyMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +595,8 @@
 				DEVELOPMENT_TEAM = CA87BU9G6A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mapbox-navigation-jp--iOS--Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = NSLocationWhenInUseUsageDescription;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +627,8 @@
 				DEVELOPMENT_TEAM = CA87BU9G6A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mapbox-navigation-jp--iOS--Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = NSLocationWhenInUseUsageDescription;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -703,6 +834,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5E9FCCA27E9AE6700EAD125 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5E9FCCB27E9AE6700EAD125 /* MapboxCoreNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5E9FCCA27E9AE6700EAD125 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxCoreNavigation;
+		};
+		D5E9FCCD27E9AE6700EAD125 /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5E9FCCA27E9AE6700EAD125 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5E9FC8927E9AC6E00EAD125 /* Project object */;
 }
